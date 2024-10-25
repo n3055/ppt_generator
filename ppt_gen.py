@@ -12,8 +12,8 @@ import requests
 from PIL import Image
 import random
 load_dotenv()
-pix_key = st.secrets("PIX_API_KEY")
-API_KEY = st.secrets("API_KEY")
+pix_key = st.secrets["PIX_API_KEY"]
+API_KEY = st.secrets["API_KEY"]
 st.title("lame:blue[PPT]generator")
 st.header(":red[M]:orange[V]:red[J] :red[Template]")
 topic = st.text_input("Topic (Just write the topic name Ex:Badminton)")
